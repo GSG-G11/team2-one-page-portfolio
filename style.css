@@ -25,3 +25,9 @@
   .social-icon a i:hover {
     color: #0021f5;
   }
+  .copyright {
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
