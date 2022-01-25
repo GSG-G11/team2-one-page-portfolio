@@ -22,6 +22,9 @@ footer {
   margin: 0 10px;
   color: black;
 }
+.social-icon a i:hover {
+  color: #0021f5;
+}
 .copyright {
   padding: 30px 10px;
   text-align: center;
