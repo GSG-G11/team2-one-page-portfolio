@@ -120,6 +120,37 @@ hr {
     font-size: 15px;
   }
 }
+/* Start Footer */
+footer {
+  background-color: #1bad9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social-icon {
+  width: 30%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-icon a i {
+  font-size: 1.2rem;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+.social-icon a i:hover {
+  color: black;
+  transform: scale(1.5);
+}
+.copyright {
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
+/* End Footer */
 /* --------------     PORTRAIT TABLETS -------------------------*/
 @media (max-width: 900px) {
   .about-us-text {
@@ -131,4 +162,10 @@ hr {
 }
 /* --------------     BIG SCREEN -------------------------*/
 @media (min-width: 1800px) {
+}
+/* --------------    Mobile SCREEN -------------------------*/
+@media screen and (max-width: 400px) {
+  .social-icon {
+    width: 50%;
+  }
 }
