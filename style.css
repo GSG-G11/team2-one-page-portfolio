@@ -9,6 +9,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100vw;
 }
 .social-icon {
   padding-top: 30px;
@@ -17,16 +18,19 @@ footer {
   align-items: center;
 }
 .social-icon a i {
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin: 0 10px;
-  color: black;
+  color: #ffffff;
+
+  transition: all 0.5s;
 }
 .social-icon a i:hover {
-  color: #0021f5;
+  color: black;
+  transform: scale(1.5);
 }
 .copyright {
-  padding: 30px 10px;
+  padding: 15px 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 }
