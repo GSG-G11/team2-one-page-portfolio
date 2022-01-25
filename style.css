@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90vw;
   margin: 0 3vw;
   padding: 0 1vw;
   top: 5vh;
@@ -201,6 +200,13 @@ footer {
   .about-us-text {
     font-size: 20px;
   }
+  .header{
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .header .header-nav{
+    width:auto;
+  }
 }
 /* --------------     LANDSPACE TABLETS -------------------------*/
 @media (max-width: 1200px) {
@@ -213,4 +219,10 @@ footer {
   .social-icon {
     width: 50%;
   }
+}
+
+/* --------------    Scroll Bbehavior -------------------------*/
+
+html {
+  scroll-behavior: smooth;
 }
