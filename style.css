@@ -22,3 +22,8 @@ footer {
   margin: 0 10px;
   color: black;
 }
+.copyright {
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
