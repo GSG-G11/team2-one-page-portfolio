@@ -236,3 +236,16 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+.logo-svg{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+}
+.logo-png{
+    background-color:turquoise;
+    width: 100px;
+    height: 100px;
+
+}
+
