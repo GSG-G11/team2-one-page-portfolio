@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .header {
   display: flex;
@@ -174,6 +176,91 @@ hr {
     font-size: 15px;
   }
 }
+
+/* Start Contact US */
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .contant {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .contant h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+.contact .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.contact .contact-form {
+  width: 40%;
+  padding: 40px;
+}
+.contact .contact-form h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contact .contact-form .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contact .contact-form .inputBox input,
+.contact .contact-form .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #3a3a3a;
+  outline: none;
+  resize: none;
+}
+.contact .contact-form .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #b9b9b9;
+}
+.contact .contact-form .inputBox input:focus ~ span,
+.contact .contact-form .inputBox input:valid ~ span,
+.contact .contact-form .inputBox textarea:focus ~ span,
+.contact .contact-form .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.contact .contact-form .inputBox input[type="submit"] {
+  width: 100%;
+  background-color: #1bad9c;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+.contact .contact-form .inputBox input[type="submit"]:hover {
+  background-color: #017986;
+}
+/* End Contact US */
+
 /* Start Footer */
 footer {
   background-color: #1bad9c;
