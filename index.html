@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tec Storm</title>
+  </head>
+  <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <title>tecStorm</title>
-</head>
 
-<body>
+    <header class="header">
+      <figure class="logo-title-container">
+          <img src="./assest/storm-logo.svg" alt="tec storm team logo" class="logo-img">
+        <figcaption class="logo-title">Tec Storm</figcaption>
+      </figure>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="./index.html#about-us">About us</a></li>
+          <li><a href="./index.html#our-team">Our Team</a></li>
+          <li><a href="./index.html#contact-us">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Start About Us Section  -->
+    <section id="about-us">
+      <p class="about-us-text">
+        Freelance Web Designer & Developer Team based in Palestine, Gaza.<br />
+        Highly experienced in designing & developing custom websites.
+      </p>
+      <hr />
+      <section id="about-us-container">
+        <section class="about-us-left-section">
+          <img
+            src="assest/about-us-ipad.png"
+            alt="Ipad with some design"
+            class="about-us-ipad-img"
+          />
+          <img
+            src="assest/about-us-computer.png"
+            alt="Compter with some design"
+            class="about-us-computer-img"
+          />
+        </section>
+        <section class="about-us-right-section">
+          <div class="about-us-right-section-text about-us-right-section-text1">
+            <p>
+              Fully responsive,<br />
+              custom designed Website.
+            </p>
+          </div>
+          <div class="about-us-right-section-text about-us-right-section-text2">
+            <p>Frontend And Backend Developer Team</p>
+          </div>
+
+          <button class="about-us-right-section-button" onclick="location.href='./#contact-us'">Contact Us</button>
+        </section>
+      </section>
+    </section>
     <hr />
 
     <section class="our-team">
@@ -122,6 +175,68 @@
     </section>
     <hr />
 
-</body>
-
+         <!-- Start Contact Us -->
+    <section class="contact" id="contact-us">
+        <div class="contant">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            <div class="contact-form">
+            <form action="#">
+                <p>Feel Free to contact us any time. We will get back to you as soon as we can.</p>
+            <div class="inputBox">
+                <input type="text" class="name" required="required">
+                <span>Name</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" class="name" required="required">
+                <span>Email</span>
+            </div>
+            <div class="inputBox">
+               <input type="text" required="required">
+                <span>Type your Message</span>
+            </div>
+            <div class="inputBox">
+               <input type="submit" value="Send">
+             </div>
+              
+            
+            </form>
+         </div>
+         <div class="contact-info">
+           <div class="email row">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@gazaskygeeks.com">info@gazaskygeeks.com</a>
+           </div>
+           <div class="phone row">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+9728-2826331">+9728-2826331</a>    
+           </div>
+           <div class="address row">
+            <i class="fas fa-building"></i>
+            <p>UNWRA HQ Square, Almotaz 3 Building,<br>Mezzanine level, Gaza city, Gaza Strip</p>
+           </div>
+           <div class="time row">
+            <i class="fas fa-clock"></i>
+             <p>9:00 AM - 5:00 PM</p>
+           </div>
+         </div>
+        </div>
+    </section>
+      <!-- End Contact Us -->
+     <!-- Start Footer -->
+     <footer class="footer">
+        <div class="social-icon">
+          <a href="#"><i class="fab fa-facebook"></i></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="far fa-envelope"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; 2022 All Right Reserved Team 2
+        </div>
+      </footer>
+      <!-- End Footer -->
+  </body>
 </html>
