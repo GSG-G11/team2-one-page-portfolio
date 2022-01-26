@@ -9,16 +9,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3vw;
+  margin: 0 auto;
   padding: 0 1vw;
   top: 5vh;
   box-shadow: 0 10px 10px #e0e0e0;
   border-radius: 5px;
   margin-top: 30px;
   background: #f9f9f9;
+  width: 85%;
 }
 .logo-title-container .logo-img {
-  width: 10vh;
+  width: 7vh;
   background: #1bad9c;
   fill: #fff;
   border-radius: 50%;
@@ -26,11 +27,13 @@
   margin: 1vh 10px;
 }
 .header .header-nav {
-  width: 50%;
+  width: 40%;
 }
 .header .logo-title-container {
   width: fit-content;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 .header .logo-title-container,
 .header-nav-list {
@@ -41,7 +44,7 @@
 }
 .header-nav .header-nav-list {
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 1.2rem;
 }
 .header-nav .header-nav-list a,
@@ -238,6 +241,7 @@ hr {
   transition: 0.5s;
   color: #b9b9b9;
 }
+
 .contact .contact-form .inputBox input:focus ~ span,
 .contact .contact-form .inputBox input:valid ~ span,
 .contact .contact-form .inputBox textarea:focus ~ span,
@@ -338,6 +342,12 @@ font-size: 15px;
   .social-icon {
     width: 50%;
   }
+  .header .header-nav .header-nav-list{
+    font-size: 15px;
+  }
+  .header .logo-title-container{
+    font-size: 1.1rem;
+  }
 }
 
 /* --------------    Scroll Bbehavior -------------------------*/
@@ -366,11 +376,12 @@ html {
   background-color: #1BAD9C;
   border-radius: 15px;
   width: 40%;
+  padding: 10px;
 }
 .contact-info .row{
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 .contact-info .row i{
   margin-right: 20px;
@@ -380,4 +391,28 @@ color: #fff;
 }
 .contact-info .row a:visited{
   color: #fff;
+}
+
+.contact .inputBox input[type="text"]{
+  color:#e91e63;
+  padding-left: 10px;
+}
+
+.header-nav .header-nav-list a:hover{
+  background: #1BAD9C;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.about-us-computer-img {
+  animation: openThePage 2s ease-in-out forwards;
+}
+.about-us-ipad-img {
+  animation: openThePage 2s ease-in-out forwards;
+}
+@keyframes openThePage {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -100px);
+  }
 }
