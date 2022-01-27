@@ -456,17 +456,19 @@ html {
 .team-member .member-avatar {
   align-self: center;
   margin: 20px;
-  width: 50%;
-  height: 50%;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: #c4c4c4;
 }
 
 .team-member .member-avatar img {
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
+
 
 .team-member .team-member-info {
   display: flex;
@@ -505,6 +507,10 @@ html {
   display: flex;
   width: 100%;
   justify-content: space-around;
+}
+
+.memeber-social li{
+  list-style: none;
 }
 
 .memeber-social li a {
