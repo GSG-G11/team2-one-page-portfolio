@@ -509,6 +509,10 @@ html {
   justify-content: space-around;
 }
 
+.memeber-social li{
+  list-style: none;
+}
+
 .memeber-social li a {
   text-decoration: none;
   color: #3a3a3a;
