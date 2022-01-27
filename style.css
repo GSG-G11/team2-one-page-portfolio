@@ -27,6 +27,7 @@
   margin: 1vh 10px;
 }
 .header .header-nav {
+  padding:10px;
   width: 40%;
 }
 .header .logo-title-container {
